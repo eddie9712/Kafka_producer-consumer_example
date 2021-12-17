@@ -33,7 +33,7 @@ e.g. `java -jar ./target/1-1.0-SNAPSHOT-jar-with-dependencies.jar producer --bro
   * **Parameters:**
     ```
     --brokers: list of brokers
-    --topic: topic name of th topic we had created
+    --topic: topic name of the topic we had created
     --records: number of records we send
     --recordSize: size of each record
     ```
