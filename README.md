@@ -1,5 +1,6 @@
 # Kafka_producer-consumer_example
-A repository for kafka producer/consumer implementation
+A repository for kafka producer/consumer implementation  
+:warning: The newest version is only for producer example, please check the previous version for consumer example
 # Prerequisite
 The items below should be installed:
 ```
