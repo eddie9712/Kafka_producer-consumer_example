@@ -33,7 +33,7 @@
                             <archive>
                                 <manifest>
                                     <mainClass>
-                                        example.entry
+                                        example.producer
                                     </mainClass>
                                 </manifest>
                             </archive>

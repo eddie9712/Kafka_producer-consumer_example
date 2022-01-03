@@ -8,9 +8,9 @@ import java.util.*;
 
 public class producer {
     public static void main(String[] args) throws InterruptedException{
-	if (!args[1].equals("--brokers"))                                      //parser
-	    throw new IllegalArgumentException("Wrong argument: " + args[1]);
-	int k = 2;                                                             //index of the arguments
+	if (!args[0].equals("--brokers"))                                      //parser
+	    throw new IllegalArgumentException("Wrong argument: " + args[0]);
+	int k = 1;                                                             //index of the arguments
 	String brokers = args[k];
 	if (!args[k+1].equals("--topic"))
 		throw new IllegalArgumentException("Wrong argument: " + args[k+1]);
